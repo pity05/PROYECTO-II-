@@ -91,7 +91,7 @@
 //     .catch(error => console.error("Error al cargar el JSON:", error));
 
 
-fetch('https://tu-servidor-de-base-de-datos.com/api/imagenes')
+fetch('')
             .then(response => response.json())
             .then(data => {
                 // Procesa los datos y muestra las imágenes
