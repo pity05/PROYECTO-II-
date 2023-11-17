@@ -91,7 +91,7 @@
 //     .catch(error => console.error("Error al cargar el JSON:", error));
 
 
-fetch('')
+fetch('mysql://root:prsc0528@localhost:3306/pity')
             .then(response => response.json())
             .then(data => {
                 // Procesa los datos y muestra las imágenes
