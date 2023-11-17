@@ -103,9 +103,9 @@ fetch('https://tu-servidor-de-base-de-datos.com/api/imagenes')
                     contenedorImagenes.appendChild(imgElement);
                 });
                 const titulos = document.getElementById('title-gallery');
-                data.forEach(titulo => {
+                data.forEach(tittle => {
                     const listItem = document.createElement('div');
-                    listItem.textContent = titulo;
+                    listItem.textContent = tittle;
                     titulos.appendChild(listItem);
                 });
                 const contenedorServicios = document.getElementById('services');
