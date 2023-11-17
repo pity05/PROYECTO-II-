@@ -102,7 +102,7 @@ fetch('https://tu-servidor-de-base-de-datos.com/api/imagenes')
                     imgElement.alt = imagen.descripcion; 
                     contenedorImagenes.appendChild(imgElement);
                 });
-                const titulos = document.getElementById('title-gallery');
+                const titulos = document.getElementById('titl-gallery');
                 data.forEach(tittle => {
                     const listItem = document.createElement('div');
                     listItem.textContent = tittle;
