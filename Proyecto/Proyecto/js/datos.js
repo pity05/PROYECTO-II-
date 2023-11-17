@@ -94,7 +94,7 @@
 fetch('mysql://root:prsc0528@localhost:3306/pity')
             .then(response => response.json())
             .then(data => {
-                // Procesa los datos y muestra las imágenes
+                
                 const contenedorImagenes = document.getElementById('container-images');
                 data.forEach(imagen => {
                     const imgElement = document.createElement('img');
